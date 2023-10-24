@@ -79,7 +79,7 @@ export default function Register() {
           )}
         </label>
 
-        <Button type="submit">
+        <Button type="submit" disable={isSubmitting}>
           Próximo passo
           <ArrowRight />
         </Button>

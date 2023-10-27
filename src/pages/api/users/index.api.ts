@@ -20,3 +20,6 @@ export default async function handler(
 
   return res.status(201).json(user)
 }
+
+// npm run dev
+// npx prisma studio
